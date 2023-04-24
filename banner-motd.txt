@@ -1,0 +1,26 @@
+!
+!
+!
+en
+!
+!
+!
+conf t
+!
+!
+!
+hostname NB-RT01
+!
+banner motd
+!
+banner motd % 
+
+*********************************************************************
+insert a logon banner that will serve as a warning for unauthorized access 
+Failure to which its open season and you will have no legally binding
+statement incase of escalation (You will lose).
+*********************************************************************
+%
+!
+!
+wr
