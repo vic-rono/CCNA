@@ -22,6 +22,8 @@ Steps for perfoming password recovery from cisco devices.<br>
 ![PuTTY](https://user-images.githubusercontent.com/61822296/233679386-593fed53-65da-448b-901f-6f292297a3f8.png)
 
 ![gnsVM](https://user-images.githubusercontent.com/61822296/233967056-d4b970cd-6b3d-4662-8b69-4f5377bd1507.png)
+<br>
+<br>
 
 ## Basic configuration
 
