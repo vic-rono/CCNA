@@ -23,6 +23,6 @@ Steps for perfoming password recovery from cisco devices.<br>
 
 ![gnsVM](https://user-images.githubusercontent.com/61822296/233967056-d4b970cd-6b3d-4662-8b69-4f5377bd1507.png)
 
-##Basic configuration
+## Basic configuration
 
 Assigning IP addresses to the routers and switches.
