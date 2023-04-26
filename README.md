@@ -25,6 +25,6 @@ Steps for perfoming password recovery from cisco devices.<br>
 <br>
 <br>
 
-## Basic configuration
+## Basic IP configuration
 
 Assigning IP addresses to the routers and switches.
