@@ -31,7 +31,7 @@ Includes;<br>
 - Assigning IP addresses to the routers and switches.
 - Assigning hostname 
 - Assigning banner motd.
-- logging synchronous on line console 0 to prevent syslog messages that interrupt while typing commands(LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up)
+- logging synchronous on line console 0 to prevent syslog messages that interrupt while typing commands LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
 -Disabling ip-domain lookup to prevent dns lookup when you encounter an error while typing commands.
 -Enabling password on the enable terminal
 -Enabling password on line vty for telnet and SSH communication.
