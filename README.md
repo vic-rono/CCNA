@@ -29,6 +29,7 @@ Steps for perfoming password recovery from cisco devices.<br>
 
 Includes;<br>
 - Assigning IP addresses to the routers and switches.
+- Creating VLANs on switches.
 - Assigning hostname. 
 - Assigning banner motd.
 - logging synchronous on line console 0 to prevent syslog messages that interrupt while typing commands (LINEPROTO-5-UPDOWN: Line protocol on Interface      GigabitEthernet0/0, changed state to up).
