@@ -43,7 +43,7 @@ Includes;<br>
 
 - show mac address-table 8dfb.f9cf.fb1a - filters for known specific addresses
 - show mac address-table fa0/1 - filters mac addresses connnected to that particular interface
-- show spanning tree - loop prevention mechanism that mitigates an occurence of a ![broadcast storm](https://en.wikipedia.org/wiki/Broadcast_storm#:~:text=A%20broadcast%20storm%20or%20broadcast,unable%20to%20transport%20normal%20traffic.)
+- show spanning tree - loop prevention mechanism that mitigates an occurence of a [broadcast storm](https://en.wikipedia.org/wiki/Broadcast_storm#:~:text=A%20broadcast%20storm%20or%20broadcast,unable%20to%20transport%20normal%20traffic.)
 
 
 
