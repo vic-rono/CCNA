@@ -1,0 +1,13 @@
+!
+sh ip int brief - what interfaces do these device have and what IP addresses are assigned to them
+!
+sh int status - little more concise Duplex , speed
+!
+sh cdp neighbors - what cisco devices are directly connected(cisco discovery protocol is propietary)
+!
+!
+conf t 
+!
+int fa0/1
+!
+description "CONNECT TO NB-SW01"- to provide description on directly connected devices for your preffered interface

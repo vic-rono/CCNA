@@ -1,0 +1,86 @@
+en
+!
+!
+conf t
+!
+#hostname NB-RT01
+!
+!
+int g0/1
+!
+no shut
+!
+ip address 192.168.1.1 255.255.255.0
+!
+!
+exit
+!
+banner motd %
+***********WARNING****************************
+Access is restricted to authorized users only.
+Unauthorized access is a violation
+**********************************************
+%
+!
+!
+line console 0
+!
+!
+logging synchronous
+!
+!
+exit
+!
+!
+line console 0
+!
+!
+logging synchronous
+!
+exit
+!
+!
+line con 0
+!
+password ronohcisco
+!
+!
+login
+!
+!
+exit
+!
+!
+line vty 0 4
+!
+!
+login
+!
+!
+password ronohcisco
+!
+enable secret ronohcisco
+!
+!
+int g0/1
+!
+!exit
+!
+!
+no ip domain-lookup
+!
+!
+exit
+!
+conf t
+!
+!
+!
+service password-encryption
+!
+!
+wr
+!
+
+
+

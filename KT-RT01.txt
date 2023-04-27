@@ -1,0 +1,83 @@
+!
+en
+!
+!
+conf t
+!
+#hostname KT-RT01
+!
+!
+int fa0/1
+!
+ip address 192.168.2.1 255.255.255.0
+!
+!
+no shut
+!
+!
+exit
+!
+banner motd %
+***********WARNING****************************
+Access is restricted to authorized users only.
+Unauthorized access is a violation
+***********************************************
+%
+!
+!
+line console 0
+!
+!
+logging synchronous
+!
+!
+exit
+!
+!
+line console 0
+!
+!
+logging synchronous
+!
+exit
+!
+!
+line con 0
+!
+password ronohcisco
+!
+!
+login
+!
+!
+exit
+!
+!
+line vty 0 4
+!
+!
+login
+!
+!
+password ronohcisco
+!
+enable secret ronohcisco
+!
+!
+!exit
+!
+!
+no ip domain-lookup
+!
+!
+exit
+!
+conf t
+!
+!
+!
+service password-encryption
+!
+!
+wr
+!
