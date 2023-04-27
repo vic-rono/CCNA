@@ -7,10 +7,9 @@ show mac ?
 show mac address-table
 !
 !
-show spannning tree - loop prevention mechanism BLK
+show spannning tree
 !
-show mac address-table 8dfb.f9cf.fb1a - filtering for known specific mac adddress
+show mac address-table 8dfb.f9cf.fb1a
 !
-!
-show mac address-table fa0/1 - filtering for mac addresses connected to that particular interface
+show mac address-table fa0/1
 !
