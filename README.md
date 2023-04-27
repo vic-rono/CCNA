@@ -41,5 +41,8 @@ Includes;<br>
 
 ## mac addresses
 
+- show mac address-table 8dfb.f9cf.fb1a - filters for known specific addresses
+- show mac address-table fa0/1 - filters mac addresses connnected to that particular interface
+
 
 
