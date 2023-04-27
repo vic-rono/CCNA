@@ -35,7 +35,7 @@ Includes;<br>
 -Disabling ip-domain lookup to prevent dns lookup when you encounter an error while typing commands.
 -Enabling password on the enable terminal
 -Enabling password on line vty for telnet and SSH communication.
-- wr - to save changes.
+- wr to save changes.
 
 
 
