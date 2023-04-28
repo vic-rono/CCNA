@@ -1,0 +1,10 @@
+!
+en
+show power line - shows available, used and remaining power on the switch, helps you know the limit reached on the amount of power on the switch for planning purposes
+!
+conf t
+int fa0/1
+!
+power inline ? - consumption adjusts consumption of power on a device never for troubleshooting device incase it freezes(basically switching on/off) auto - reboots
+!
+!
