@@ -50,5 +50,7 @@ Can be powered through a PoE switch(endspan) or power injector(midspan)<br>
 Used for powering devices such as VoIP phones, wireless access point(WAP) and security cameras. uses 802.3AF to release 15.4 watts or with devices getting more hungry for power there's the 802.3at that churns out, wait for it.....25.5 watts.
 
 The following configurations is used to setup and troubleshoot PoE;
+- show power line - shows available, used and remaining power on the switch, helps you know the limit reached on the amount of power on the switch for planning purposes<br>
+- power inline ? - consumption adjusts consumption of power on a device never for troubleshooting device incase it freezes(basically switching on/off) auto - reboots
 
 
