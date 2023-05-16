@@ -53,4 +53,6 @@ The following configurations is used to setup and troubleshoot PoE;
 - show power line - shows available, used and remaining power on the switch, helps you know the limit reached on the amount of power on the switch for planning purposes<br>
 - power inline ? - consumption adjusts consumption of power on a device never for troubleshooting device incase it freezes(basically switching on/off) auto - reboots
 
+# VLANS & ROUTER ON A STICK
+
 
