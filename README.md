@@ -56,6 +56,8 @@ The following configurations is used to setup and troubleshoot PoE;
 ## VLANS & ROUTER ON A STICK
 creating vlans.
 
+![vlans](https://github.com/vic-rono/CCNA/assets/61822296/c134cb42-414e-4597-91fb-3767ed5a8e36)
+
 
 
 
