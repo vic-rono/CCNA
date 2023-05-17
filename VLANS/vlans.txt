@@ -1,0 +1,71 @@
+!
+en
+!
+conf t
+!
+vlan 10
+name IT
+exit
+!
+vlan 20
+name VoIP
+exit
+!
+vlan 30
+name Public
+exit
+!
+vlan 40
+name HR
+exit
+!
+!
+conf t
+!
+!
+int fa1/0
+!
+switchport mode access
+!
+switchport access vlan 10
+!
+!
+exit
+!
+!
+int fa1/1
+!
+switchport mode access
+!
+switchport access vlan 10
+!
+exit
+!
+conf t
+!
+!
+int fa1/2
+!
+switchport mode access
+!
+switchport access vlan 20
+!
+exit
+!
+conf t
+
+!
+int fa1/3
+!
+switchport mode access
+!
+switchport access vlan 20
+!
+exit
+!
+!
+conf t
+int range fa1/1-15
+!
+spanning-tree portfast
+

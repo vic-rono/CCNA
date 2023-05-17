@@ -1,0 +1,9 @@
+For VLAN(10)
+For rono-IT
+IP address 10.16.8.50 255.255.255.0
+Default-gateway 10.16.8.1
+
+For vic-IT
+IP address 10.16.8.51 255.255.255.0
+Default-gateway 10.16.8.1
+
