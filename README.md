@@ -54,5 +54,10 @@ The following configurations is used to setup and troubleshoot PoE;
 - power inline ? - consumption adjusts consumption of power on a device never for troubleshooting device incase it freezes(basically switching on/off) auto - reboots
 
 ## VLANS & ROUTER ON A STICK
+creating vlans.
+
+
+
+
 
 
