@@ -54,11 +54,11 @@ The following configurations is used to setup and troubleshoot PoE;
 - power inline ? - consumption adjusts consumption of power on a device never for troubleshooting device incase it freezes(basically switching on/off) auto - reboots
 
 ## VLANS & ROUTER ON A STICK
-creating vlans.
-VLANS creates a security boundary, by way of segmenting the network
+creating vlans.<br>
+VLANS creates a security boundary, by way of segmenting the network.<br>
 By default, the ports are set to dynamic mode.You should set this to access mode.
 
-- switchport mode access, switchport mode access vlan 10; will deter an unauthorised device from becoming a trunk port and having full access to add vlans and setup ports to whatever vlans they want.Therein lies breach of security
+- switchport mode access, switchport mode access vlan 10; will deter any unauthorised device from becoming a trunk port and having full access to add vlans and setup ports to whatever vlans they want.Therein lies breach of security
 
 ![vlans](https://github.com/vic-rono/CCNA/assets/61822296/c134cb42-414e-4597-91fb-3767ed5a8e36)
 
