@@ -1,0 +1,6 @@
+!
+switchport mode trunk 
+!
+!
+switchport nonegotiate
+!

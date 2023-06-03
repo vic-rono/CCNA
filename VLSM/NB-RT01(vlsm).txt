@@ -1,0 +1,91 @@
+en
+!
+!
+conf t
+!
+!
+vlan 10
+!
+exit
+!
+vlan 20
+!
+exit
+!
+vlan 30
+!
+exit
+!
+vlan 40
+!
+exit
+!
+!
+sh vlan-switch
+!
+conf t
+!
+!
+int vlan 10
+!
+!
+ip address 10.16.0.1 255.255.255.0
+!
+exit
+!
+!
+int vlan 20
+!
+!
+ip address 10.16.2.1 255.255.255.0
+!
+exit
+!
+!
+int vlan 30
+!
+ip address 10.16.4.1 255.255.254.0
+!
+!
+exit
+!
+int vlan 40
+!
+ip address 10.16.6.1 255.255.254.0
+!
+exit
+!
+!
+exit
+!
+!
+conf t
+!
+!
+int g0/1
+!
+!
+switchport trunk mode encapsulation dot1q
+!
+!
+!
+switchport mode trunk
+!
+!
+exit
+!
+!
+exit
+!
+show interfaces trunk
+!
+!
+show ip interface brief
+!
+!
+exit
+!
+wr
+
+
+

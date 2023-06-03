@@ -1,0 +1,36 @@
+!
+en
+!
+!
+sh cdp neighbors
+!
+!
+conf t
+!
+int g0/0
+!
+!
+switchport mode trunk
+!
+!
+switchport nonegotiate
+!
+!
+exit
+!
+int g0/1
+!
+!
+switchport mode trunk
+!
+!
+switchport nonegotiate
+!
+!
+exit
+!
+!
+exit
+!
+!
+wr

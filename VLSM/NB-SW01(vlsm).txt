@@ -1,0 +1,8 @@
+en
+!
+!
+int g0/1
+!
+switchport mode trunk
+!
+!

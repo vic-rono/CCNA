@@ -1,0 +1,60 @@
+p9!
+en
+!
+!
+sh cdp neighbors
+!
+!
+conf t
+!
+int g0/0
+!
+!
+switchport mode trunk
+!
+!
+switchport nonegotiate
+!
+!
+exit
+!
+int g0/2-3
+!
+!
+switchport mode trunk
+!
+!
+switchport nonegotiate
+!
+!
+exit
+!
+!
+wr
+!
+en
+!
+!
+!
+show vtp status
+!
+conf t
+!
+vtp ?
+!
+!
+!
+vtp version 2
+!
+!
+vtp domain NAIROBI
+!
+!
+exit
+!
+!
+wr
+!
+!
+show vtp status
+
