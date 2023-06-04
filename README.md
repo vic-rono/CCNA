@@ -63,6 +63,8 @@ the dynamic trunking protocol will be susceptible to a [VLAN hopping attack](htt
 
 ![vlans](https://github.com/vic-rono/CCNA/assets/61822296/c134cb42-414e-4597-91fb-3767ed5a8e36)
 
+Configurations for PCs through gns3's VCPS - IP address, mac address and default gateway. Oh for computers connected on VLan 10 (they are pingable)
+![pingable](https://github.com/vic-rono/CCNA/assets/61822296/91198dcf-98a8-4176-a5e9-159fb92f4f9f)
 
 
 
