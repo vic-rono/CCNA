@@ -56,7 +56,8 @@ The following configurations is used to setup and troubleshoot PoE;
 ## VLANS & ROUTER ON A STICK
 creating vlans.<br>
 VLANS creates a security boundary, by way of segmenting the network.<br>
-By default, the ports are set to dynamic mode.You should set this to access mode.
+By default, the ports are set to dynamic mode.You should set this to access mode.<br>
+the dynamic trunking protocol will be susceptible to a ![VLAN hopping attack](https://www.techtarget.com/searchsecurity/definition/VLAN-hopping).
 
 - switchport mode access, switchport mode access vlan 10; will deter any unauthorised device from becoming a trunk port and having full access to add vlans and setup ports to whatever vlans they want.Therein lies breach of security
 
