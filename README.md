@@ -66,6 +66,13 @@ the dynamic trunking protocol will be susceptible to a [VLAN hopping attack](htt
 Configurations for PCs through gns3's VCPS - IP address, mac address and default gateway. Oh for computers connected on VLan 10 (they are pingable)
 ![pingable](https://github.com/vic-rono/CCNA/assets/61822296/91198dcf-98a8-4176-a5e9-159fb92f4f9f)
 
+##Configuring router on a stick(trunking)
+- To enable communication between router and a switch, so that the various vlans can be able to communicate. This is a layer 3 thing        hence the need to setup trunking 
+- Vlan 10 will be able to communicate with vlan 20 with sub-interfaces created in the router.
+- Trunking uses 802.1Q encapsulation to enable trunking.
+
+![TRUNK](https://github.com/vic-rono/CCNA/assets/61822296/87a435ba-2b0b-4161-9e44-d718e52cba05)
+
 
 
 
