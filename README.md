@@ -39,9 +39,9 @@ Includes;<br>
 - wr to save changes.
 
 ## banner motd
--legally binding logon banner; incase someone tries to access devices without authorization
--#banner motd for inline; #banner motd $ do not log on $ where '$' is the delimiting character.
--#banner motd for a text editor for a longer motd #banner motd % insert longer message here % where '%' is the delimiting character.
+-legally binding logon banner; incase someone tries to access devices without authorization.
+-banner motd for inline; #banner motd $ do not log on $ where '$' is the delimiting character.
+-banner motd for a text editor for a longer motd #banner motd % insert longer message here % where '%' is the delimiting character.
 
 ## mac addresses
 
